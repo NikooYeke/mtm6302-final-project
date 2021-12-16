@@ -1,0 +1,127 @@
+body {
+  font-family: verdana;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
+
+#setting-box {
+  padding: 24px;
+  background-color: #ebebeb;
+  display: none;
+}
+#setting-btn {
+  background-color: #ebebeb;
+  margin-left: 24px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  padding-top: 2px;
+  border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
+}
+.chk-setting {
+  margin-bottom: 12px;
+}
+
+#main {
+  padding: 24px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+}
+
+#main h1,
+h2,
+h3 {
+  text-shadow: 1px 0px #ccc;
+  letter-spacing: 4px;
+}
+
+#main .timer {
+  font-family: "Orbitron", verdana;
+  font-size: 72px;
+  color: #ff6600;
+}
+
+#main .date {
+  font-family: "Orbitron", verdana;
+  font-size: 42px;
+  color: #000;
+}
+
+#main #explanation {
+  text-align: justify;
+}
+
+#more-btn {
+  width: 64px;
+  height: 36px;
+  position: fixed;
+  right: 0px;
+  top: 50%;
+  border-radius: 5px 0px 0px 5px;
+  border-top: solid 2px #ff6600;
+  border-left: solid 2px #ff6600;
+  border-bottom: solid 2px #ff6600;
+  background-color: #eee;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 2px;
+}
+#more-modal {
+  width: 70%;
+  height: 400px;
+  position: fixed;
+  top: 10%;
+  left: 15%;
+  display: none;
+  background-color: #ebebeb;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  text-align: center;
+}
+
+#modal-close {
+  cursor: pointer;
+  background-color: #c00;
+  color: #fff;
+  position: absolute;
+  top: -30px;
+  right: -20px;
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+#more-modal .column {
+  float: left;
+  width: 49%;
+  margin-left: 1%;
+}
+
+#more-modal .column div {
+  height: 160px;
+  margin-bottom: 12px;
+  background-color: #ccc;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 4px;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 24px;
+}
+
+#more-modal .column div span{
+    display: block;
+    color: #f60;
+    font-size: 48px;
+}

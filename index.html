@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Time</title>
+
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="init()">
+    <div class="settings">
+        <div id="setting-box">
+            <h3>Settings</h3>
+            <div class="chk-setting">
+                <input type="checkbox" name="chk-clock24" id="chk-clock24">
+                <label for="chk-clock24">24-Hour Clock</label>
+            </div>
+            <div class="chk-setting">
+                <input type="checkbox" name="chk-seconds" id="chk-seconds">
+                <label for="chk-seconds">Show Seconds</label>
+            </div>
+            <div class="chk-setting">
+                <input type="checkbox" name="chk-date" id="chk-date">
+                <label for="chk-date">Show Date</label>
+            </div>
+        </div>
+        <div id="setting-btn">
+            <img src="images/setting.png" alt="btn-setting" >
+        </div>
+    </div>
+    <div id="main">
+        <h1 class="title" id="title"></h1>
+        <h3 class="timer" id="time"></h3>
+        <h5 class="date" id="date"></h5>
+        <p id="explanation"></p>
+    </div>
+
+    <div id="more-modal">   
+        <p id="modal-close">X</p>
+        <div class="column">
+            <div id="dow"></div>
+            <div id="dom"></div>
+        </div>    
+        <div class="column">
+            <div id="doy"></div>
+            <div id="woy"></div>
+        </div> 
+    </div>
+
+    <div id="more-btn">
+        <img src="images/plus.png" alt="btn-more">
+    </div>
+
+
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+</html>
